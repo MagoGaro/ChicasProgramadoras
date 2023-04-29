@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Galeria Primer TP Scratch</title>
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+  <link rel="stylesheet" href="../css/gallery-grid.css">
+
+
+</head>
+
+<body>
+  <img class="portada" src="https://www.chicasprogramadoras.club/wp-content/uploads/2016/09/cropped-cropped-logo-chicas-1.png" alt="">
+
+  <img class="portada" src="https://ciudaddecorrientes.gov.ar/sites/default/themes/ciudaddecorrientes/logo.png" alt="">
+
+  <div class="container gallery-container">
+
+
+
+    <div class="tz-gallery formulario">
+        <div class="tz-gallery dos">
+        <form name="submit-to-google-sheet">
+            <label for="Nombre">Ingresa Tu Nombre</label>
+            <input name="Nombre" type="text" placeholder="Ingresa tu Nombre" required>
+            <label for="Enlace">Ingresa la url de tu Proyecto</label>
+            <input name="Enlace" type="text" placeholder="Ingresa la url de tu proyecto" required>
+            <label for="Imagene">Ingresa la url de tu Imagen</label>
+            <input name="Imagen" type="text" placeholder="Ingresa la url de tu Imagen" required>
+            <button type="submit" class="botoncito">Enviar</button>
+          </form>
+          <a href="../index.html"><button type="button" class="botoncito">Volver</button></a>
+        </div>
+        
+    </div>
+
+  </div>
+  <footer>
+    <div class="pie"> © Copyright Todos los Derechos Reservados | Desarrollado por los Mentores</div>
+  </footer>
+  <script src="../js/enviar.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script>
+    baguetteBox.run('.tz-gallery');
+  </script>
+</body>
+
+</html>

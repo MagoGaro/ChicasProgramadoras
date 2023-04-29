@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Bungee+Spice&family=Nabla&display=swap');
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+body .portada{
+    width: 20%;
+    margin: 5rem 0;
+}
+
+
+
+.container.gallery-container {
+    width: 95%;
+    background-color: #eb4485;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .cartita{
+    width: 30%;
+    margin: 1rem 1rem;
+    background-color: #672f91;
+    color: #fff;
+}
+
+.fotito {
+    width: 50%;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+.fotito:hover {
+    transform: scale(2);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.formulario{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dos{
+    width: 50%;
+    border-radius: 20px;
+    min-height: 30vh;
+    background-color: rgba(215, 238, 73, 1);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.dos input{
+    width: 100%;
+    line-height: 3rem;
+    margin: 2rem 0;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.botoncito{
+    width: 20%;
+    background-color: #672f91;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.btnCarga{
+    width: 120%;
+}
+.botoncito:hover{
+    background-color: #eb4485;
+    color: #000;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+.creador{
+  color: rgba(215, 238, 73, 1);
+  font-family: 'Almendra SC', serif;
+  font-weight: bolder;
+  font-size: 2.3rem;
+}
+.pie{
+  margin-top: 1.5rem;
+  text-align: center;
+  color: #672f91;
+  font-weight: bolder;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+    body .portada{
+        width: 30%;
+        margin: 5rem 0;
+    }
+
+}
