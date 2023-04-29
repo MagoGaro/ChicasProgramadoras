@@ -91,6 +91,10 @@ body .portada{
     background-color: transparent !important;
 }
 
+.cartita{
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
 .creador{
   color: rgba(215, 238, 73, 1);
   font-family: 'Almendra SC', serif;
@@ -112,9 +116,24 @@ body .portada{
         width: 30%;
         margin: 5rem 0;
     }
+
     .btnCarga{
         width: 100%;
     }
+    .gallery-container{
+        width: 100%;
+        padding: 0;
+    }
+    .tz-gallery .cartita{
+        width: 100%;
+        margin: 0;
+    }
 
+    .fotito{
+        width: 70%;
+    }
 
+    .fotito:hover{
+        transform: none;
+    }
 }
