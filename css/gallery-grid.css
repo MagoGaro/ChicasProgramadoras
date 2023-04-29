@@ -112,5 +112,9 @@ body .portada{
         width: 30%;
         margin: 5rem 0;
     }
+    .btnCarga{
+        width: 100%;
+    }
+
 
 }
